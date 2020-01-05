@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graph</title>
+	<style type="text/css">
+		.long_height{
+			height: 600px;
+			width: 10px;
+			background-color: #5283c2;
+			margin-left: 400px;
+		}
+		 .child_width{
+	      	font-size: 10em;
+		    display: inline-block;
+		    width: 15px;
+		    box-sizing: content-box;
+		    height: 15px;
+		    background-color: #fff;
+			margin: 10px 0;
+		    border: 5px solid #5283c2;
+		    position: absolute;
+		    position: relative;
+		    border-radius: 0.35em;
+		    left: -51px;
+		    /* top: 10px; */
+		    transform: translate(-50px, 28px);
+		    /* transform: translate(10px, 10px); */
+		    transform: rotate(-28deg);
+	    }
+	    .child_width:before {
+	      	content: "";
+		    display: inline-block;
+		    position: absolute;
+		    right: -34px;
+		    bottom: -10px;
+		    border-width: 0;
+		    background: #5283c2;
+		    width: 39px;
+		    height: 4px;
+		    transform: rotate(33deg);
+	    }
+	</style>
+</head>
+<body>
+	<div class="long_height">
+		<div class="child_width"></div>
+		<div class="child_width"></div>
+		<div class="child_width"></div>
+		<div class="child_width"></div>
+		<div class="child_width"></div>
+		<div class="child_width"></div>
+	</div>
+	<!-- <div class="child_width"></div> -->
+</body>
+</html>
